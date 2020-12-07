@@ -484,10 +484,10 @@ $EndComp
 Wire Wire Line
 	5550 3000 5550 3150
 $Comp
-L frequencySynthesizer-rescue:SMA_END-frequencySintesizer J?
+L frequencySynthesizer-rescue:SMA_END-frequencySintesizer J5
 U 1 1 5FD3273B
 P 5550 2800
-F 0 "J?" H 5650 2775 50  0000 L CNN
+F 0 "J5" H 5650 2775 50  0000 L CNN
 F 1 "SMA_END-frequencySintesizer" H 5650 2684 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 5550 2800 50  0001 C CNN
 F 3 "" H 5550 2800 50  0001 C CNN
