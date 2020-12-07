@@ -1064,4 +1064,34 @@ F 3 "~" H 6300 2300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 2050 6300 2300
+$Comp
+L pspice:0 #GND?
+U 1 1 5FCEB8DB
+P 1600 5450
+AR Path="/5FBD30A7/5FBFBF42/5FCEB8DB" Ref="#GND?"  Part="1" 
+AR Path="/5FBD5B32/5FCEB8DB" Ref="#GND0138"  Part="1" 
+F 0 "#GND0138" H 1600 5350 50  0001 C CNN
+F 1 "0" H 1600 5539 50  0000 C CNN
+F 2 "" H 1600 5450 50  0001 C CNN
+F 3 "~" H 1600 5450 50  0001 C CNN
+	1    1600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L frequencySynthesizer-rescue:TestPoint-frequencySintesizer TP?
+U 1 1 5FCF00F0
+P 1600 5200
+AR Path="/5FBD30A7/5FCF00F0" Ref="TP?"  Part="1" 
+AR Path="/5FBD5B32/5FCF00F0" Ref="TP2"  Part="1" 
+F 0 "TP2" H 1658 5318 50  0000 L CNN
+F 1 "TestPoint" H 1658 5227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1800 5200 50  0001 C CNN
+F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 1800 5200 50  0001 C CNN
+F 4 "5007" H 1600 5200 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 534-5007" H 1600 5200 50  0001 C CNN "Supplier Stock Code"
+	1    1600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5200 1600 5450
 $EndSCHEMATC
