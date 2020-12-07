@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name HMC739LP4E)(type Legacy)(uri ${KIPRJMOD}/HMC739LP4E.lib)(options "")(descr ""))
+  (lib (name frequencySynthesizer-rescue)(type Legacy)(uri ${KIPRJMOD}/frequencySynthesizer-rescue.lib)(options "")(descr ""))
+  (lib (name Ka-band-Mixer-cache)(type Legacy)(uri ${KIPRJMOD}/Ka-band-Mixer-cache.lib)(options "")(descr ""))
+  (lib (name HMC292ALC3B)(type Legacy)(uri ${KIPRJMOD}/HMC292ALC3B.lib)(options "")(descr ""))
+)

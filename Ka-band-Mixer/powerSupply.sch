@@ -1,0 +1,1067 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:0 #GND?
+U 1 1 5FBD9AF8
+P 1550 4350
+AR Path="/5FBD30A7/5FBFBF42/5FBD9AF8" Ref="#GND?"  Part="1" 
+AR Path="/5FBD5B32/5FBD9AF8" Ref="#GND0101"  Part="1" 
+F 0 "#GND0101" H 1550 4250 50  0001 C CNN
+F 1 "0" H 1550 4439 50  0000 C CNN
+F 2 "" H 1550 4350 50  0001 C CNN
+F 3 "~" H 1550 4350 50  0001 C CNN
+	1    1550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5FBD9B04
+P 1550 3650
+AR Path="/5FBD30A7/5FBFBF42/5FBD9B04" Ref="#PWR?"  Part="1" 
+AR Path="/5FBD5B32/5FBD9B04" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 1550 3500 50  0001 C CNN
+F 1 "+12V" H 1565 3823 50  0000 C CNN
+F 2 "" H 1550 3650 50  0001 C CNN
+F 3 "" H 1550 3650 50  0001 C CNN
+	1    1550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBD9B0E
+P 2300 4000
+AR Path="/5FBD9B0E" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FBD9B0E" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FBD9B0E" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FBD9B0E" Ref="C16"  Part="1" 
+F 0 "C16" H 2185 3954 50  0000 R CNN
+F 1 "1u" H 2185 4045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2338 3850 50  0001 C CNN
+F 3 "~" H 2300 4000 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 2300 4000 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 2300 4000 50  0001 C CNN "Supplier Stock Code"
+	1    2300 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 4150 2300 4200
+Wire Wire Line
+	1550 4350 1550 4200
+$Comp
+L pspice:DIODE D?
+U 1 1 5FBD9AFE
+P 1550 3950
+AR Path="/5FBD30A7/5FBFBF42/5FBD9AFE" Ref="D?"  Part="1" 
+AR Path="/5FBD5B32/5FBD9AFE" Ref="D2"  Part="1" 
+F 0 "D2" V 1596 3822 50  0000 R CNN
+F 1 "DIODE" V 1505 3822 50  0000 R CNN
+F 2 "Diode_SMD:D_MELF" H 1550 3950 50  0001 C CNN
+F 3 "~" H 1550 3950 50  0001 C CNN
+	1    1550 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5FC0B2FF
+P 2100 3700
+F 0 "R8" V 1893 3700 50  0000 C CNN
+F 1 "10r" V 1984 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2030 3700 50  0001 C CNN
+F 3 "~" H 2100 3700 50  0001 C CNN
+	1    2100 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3700 2300 3700
+$Comp
+L Device:R R11
+U 1 1 5FC0B326
+P 3900 3900
+F 0 "R11" H 3970 3946 50  0000 L CNN
+F 1 "1K8" H 3970 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 3830 3900 50  0001 C CNN
+F 3 "~" H 3900 3900 50  0001 C CNN
+	1    3900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5FC0B32C
+P 3900 4300
+F 0 "R12" H 3970 4346 50  0000 L CNN
+F 1 "300r" H 3970 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 3830 4300 50  0001 C CNN
+F 3 "~" H 3900 4300 50  0001 C CNN
+	1    3900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3750 3900 3700
+$Comp
+L pspice:0 #GND0108
+U 1 1 5FC0B336
+P 3900 4550
+F 0 "#GND0108" H 3900 4450 50  0001 C CNN
+F 1 "0" H 3900 4639 50  0000 C CNN
+F 2 "" H 3900 4550 50  0001 C CNN
+F 3 "~" H 3900 4550 50  0001 C CNN
+	1    3900 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4450 3900 4550
+$Comp
+L Device:C C?
+U 1 1 5FC0B358
+P 4900 4000
+AR Path="/5FC0B358" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FC0B358" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FC0B358" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FC0B358" Ref="C22"  Part="1" 
+F 0 "C22" H 4785 3954 50  0000 R CNN
+F 1 "1u" H 4785 4045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4938 3850 50  0001 C CNN
+F 3 "~" H 4900 4000 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 4900 4000 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 4900 4000 50  0001 C CNN "Supplier Stock Code"
+	1    4900 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:0 #GND0109
+U 1 1 5FC0B35E
+P 4900 4250
+F 0 "#GND0109" H 4900 4150 50  0001 C CNN
+F 1 "0" H 4900 4339 50  0000 C CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "~" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4150 4900 4250
+Wire Wire Line
+	4900 3700 4900 3850
+$Comp
+L power:+9V #PWR0129
+U 1 1 5FC0B368
+P 5350 3650
+F 0 "#PWR0129" H 5350 3500 50  0001 C CNN
+F 1 "+9V" H 5365 3823 50  0000 C CNN
+F 2 "" H 5350 3650 50  0001 C CNN
+F 3 "" H 5350 3650 50  0001 C CNN
+	1    5350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3700 5350 3650
+$Comp
+L Device:C C?
+U 1 1 5FC10CCE
+P 7350 1900
+AR Path="/5FC10CCE" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FC10CCE" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FC10CCE" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FC10CCE" Ref="C23"  Part="1" 
+F 0 "C23" H 7235 1854 50  0000 R CNN
+F 1 "4.7u" H 7235 1945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7388 1750 50  0001 C CNN
+F 3 "~" H 7350 1900 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 7350 1900 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 7350 1900 50  0001 C CNN "Supplier Stock Code"
+	1    7350 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 1750 7350 1600
+$Comp
+L pspice:0 #GND0110
+U 1 1 5FC146EF
+P 7350 2350
+F 0 "#GND0110" H 7350 2250 50  0001 C CNN
+F 1 "0" H 7350 2439 50  0000 C CNN
+F 2 "" H 7350 2350 50  0001 C CNN
+F 3 "~" H 7350 2350 50  0001 C CNN
+	1    7350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2350 7350 2050
+$Comp
+L Device:C C?
+U 1 1 5FC1C79A
+P 7800 2050
+AR Path="/5FC1C79A" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FC1C79A" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FC1C79A" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FC1C79A" Ref="C24"  Part="1" 
+F 0 "C24" H 7685 2004 50  0000 R CNN
+F 1 "100p" H 7685 2095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7838 1900 50  0001 C CNN
+F 3 "~" H 7800 2050 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 7800 2050 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 7800 2050 50  0001 C CNN "Supplier Stock Code"
+	1    7800 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 2500 7800 2200
+Wire Wire Line
+	6800 1600 7350 1600
+$Comp
+L pspice:0 #GND0112
+U 1 1 5FC2C1ED
+P 7800 2500
+F 0 "#GND0112" H 7800 2400 50  0001 C CNN
+F 1 "0" H 7800 2589 50  0000 C CNN
+F 2 "" H 7800 2500 50  0001 C CNN
+F 3 "~" H 7800 2500 50  0001 C CNN
+	1    7800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC33DC2
+P 9800 1900
+AR Path="/5FC33DC2" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FC33DC2" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FC33DC2" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FC33DC2" Ref="C25"  Part="1" 
+F 0 "C25" H 9685 1854 50  0000 R CNN
+F 1 "3.3u" H 9685 1945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9838 1750 50  0001 C CNN
+F 3 "~" H 9800 1900 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 9800 1900 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 9800 1900 50  0001 C CNN "Supplier Stock Code"
+	1    9800 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:0 #GND0113
+U 1 1 5FC33DC8
+P 9800 2150
+F 0 "#GND0113" H 9800 2050 50  0001 C CNN
+F 1 "0" H 9800 2239 50  0000 C CNN
+F 2 "" H 9800 2150 50  0001 C CNN
+F 3 "~" H 9800 2150 50  0001 C CNN
+	1    9800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2050 9800 2150
+Wire Wire Line
+	9800 1600 9800 1750
+$Comp
+L Device:R R13
+U 1 1 5FC3777E
+P 10250 1950
+F 0 "R13" H 10320 1996 50  0000 L CNN
+F 1 "1K" H 10320 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10180 1950 50  0001 C CNN
+F 3 "~" H 10250 1950 50  0001 C CNN
+	1    10250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0114
+U 1 1 5FC4242C
+P 10250 2550
+F 0 "#GND0114" H 10250 2450 50  0001 C CNN
+F 1 "0" H 10250 2639 50  0000 C CNN
+F 2 "" H 10250 2550 50  0001 C CNN
+F 3 "~" H 10250 2550 50  0001 C CNN
+	1    10250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2150 10250 2100
+Wire Wire Line
+	10250 1800 10250 1600
+Wire Wire Line
+	10250 1600 10550 1600
+Wire Wire Line
+	10550 1600 10550 1500
+$Comp
+L Device:LED D?
+U 1 1 5FBF769A
+P 10250 2300
+AR Path="/5FBD30A7/5FBF769A" Ref="D?"  Part="1" 
+AR Path="/5FBD5B32/5FBF769A" Ref="D7"  Part="1" 
+F 0 "D7" V 10289 2182 50  0000 R CNN
+F 1 "LED" V 10198 2182 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 2300 50  0001 C CNN
+F 3 "https://www.mouser.it/datasheet/2/678/av02-0551en-ds-hsmx-cxxx-05mar2012-1827675.pdf" H 10250 2300 50  0001 C CNN
+F 4 "HSMG-C170" H 10250 2300 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 630-HSMG-C170" H 10250 2300 50  0001 C CNN "Supplier Stock Code"
+	1    10250 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 2450 10250 2550
+Wire Wire Line
+	9800 1600 10250 1600
+Connection ~ 10250 1600
+$Comp
+L power:+3.3V #PWR0132
+U 1 1 5FC7592E
+P 10550 1500
+F 0 "#PWR0132" H 10550 1350 50  0001 C CNN
+F 1 "+3.3V" H 10565 1673 50  0000 C CNN
+F 2 "" H 10550 1500 50  0001 C CNN
+F 3 "" H 10550 1500 50  0001 C CNN
+	1    10550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1600 7800 1900
+Wire Wire Line
+	8300 1600 8250 1600
+Connection ~ 7800 1600
+Connection ~ 9800 1600
+$Comp
+L power:+6V #PWR0130
+U 1 1 5FC90DDC
+P 6800 1550
+F 0 "#PWR0130" H 6800 1400 50  0001 C CNN
+F 1 "+6V" H 6815 1723 50  0000 C CNN
+F 2 "" H 6800 1550 50  0001 C CNN
+F 3 "" H 6800 1550 50  0001 C CNN
+	1    6800 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1550 6800 1600
+Wire Wire Line
+	8300 1900 8250 1900
+Wire Wire Line
+	8250 1900 8250 1600
+Connection ~ 8250 1600
+Wire Wire Line
+	8250 1600 7800 1600
+Wire Wire Line
+	9300 1700 9300 1600
+Wire Wire Line
+	9300 1600 9100 1600
+Wire Wire Line
+	9300 1600 9800 1600
+Connection ~ 9300 1600
+$Comp
+L Device:C C?
+U 1 1 5FCB5481
+P 9900 3500
+AR Path="/5FCB5481" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FCB5481" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FCB5481" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FCB5481" Ref="C35"  Part="1" 
+F 0 "C35" H 9785 3454 50  0000 R CNN
+F 1 "3.3u" H 9785 3545 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9938 3350 50  0001 C CNN
+F 3 "~" H 9900 3500 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 9900 3500 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 9900 3500 50  0001 C CNN "Supplier Stock Code"
+	1    9900 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:0 #GND0102
+U 1 1 5FCB5487
+P 9900 3750
+F 0 "#GND0102" H 9900 3650 50  0001 C CNN
+F 1 "0" H 9900 3839 50  0000 C CNN
+F 2 "" H 9900 3750 50  0001 C CNN
+F 3 "~" H 9900 3750 50  0001 C CNN
+	1    9900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3650 9900 3750
+Wire Wire Line
+	9900 3200 9900 3350
+Wire Wire Line
+	9900 3200 10350 3200
+Connection ~ 9900 3200
+Wire Wire Line
+	9200 3300 9400 3300
+Wire Wire Line
+	9400 3300 9400 3200
+Wire Wire Line
+	9400 3200 9200 3200
+$Comp
+L Device:C C?
+U 1 1 5FCB5496
+P 9400 3450
+AR Path="/5FCB5496" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FCB5496" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FCB5496" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FCB5496" Ref="C33"  Part="1" 
+F 0 "C33" H 9285 3404 50  0000 R CNN
+F 1 "10n" H 9285 3495 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9438 3300 50  0001 C CNN
+F 3 "~" H 9400 3450 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 9400 3450 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 9400 3450 50  0001 C CNN "Supplier Stock Code"
+	1    9400 3450
+	-1   0    0    1   
+$EndComp
+Connection ~ 9400 3300
+Wire Wire Line
+	9400 3200 9900 3200
+Connection ~ 9400 3200
+Connection ~ 9300 1700
+Wire Wire Line
+	9100 1700 9300 1700
+$Comp
+L Device:C C?
+U 1 1 5FC9C331
+P 9300 1850
+AR Path="/5FC9C331" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FC9C331" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FC9C331" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FC9C331" Ref="C32"  Part="1" 
+F 0 "C32" H 9185 1804 50  0000 R CNN
+F 1 "10n" H 9185 1895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9338 1700 50  0001 C CNN
+F 3 "~" H 9300 1850 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 9300 1850 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 9300 1850 50  0001 C CNN "Supplier Stock Code"
+	1    9300 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 2000 9100 2000
+Wire Wire Line
+	9100 2000 9100 1900
+$Comp
+L Regulator_Linear:LT1962-5 U5
+U 1 1 5FCADF3B
+P 8800 3400
+F 0 "U5" H 8800 3867 50  0000 C CNN
+F 1 "LT1962-5" H 8800 3776 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8800 3050 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8800 2850 50  0001 C CNN
+	1    8800 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3600 9200 3600
+Wire Wire Line
+	9200 3600 9200 3500
+$Comp
+L pspice:0 #GND0103
+U 1 1 5FCA0871
+P 8700 2100
+F 0 "#GND0103" H 8700 2000 50  0001 C CNN
+F 1 "0" H 8700 2189 50  0000 C CNN
+F 2 "" H 8700 2100 50  0001 C CNN
+F 3 "~" H 8700 2100 50  0001 C CNN
+	1    8700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LT1962-3.3 U2
+U 1 1 5FC7F7B2
+P 8700 1800
+F 0 "U2" H 8700 2267 50  0000 C CNN
+F 1 "LT1962-3.3" H 8700 2176 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8700 1450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8700 1250 50  0001 C CNN
+	1    8700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0104
+U 1 1 5FCD57C7
+P 8800 3850
+F 0 "#GND0104" H 8800 3750 50  0001 C CNN
+F 1 "0" H 8800 3939 50  0000 C CNN
+F 2 "" H 8800 3850 50  0001 C CNN
+F 3 "~" H 8800 3850 50  0001 C CNN
+	1    8800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3850 8800 3700
+Connection ~ 7350 1600
+Wire Wire Line
+	7350 1600 7800 1600
+$Comp
+L Device:C C?
+U 1 1 5FCE901A
+P 7400 3500
+AR Path="/5FCE901A" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FCE901A" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FCE901A" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FCE901A" Ref="C17"  Part="1" 
+F 0 "C17" H 7285 3454 50  0000 R CNN
+F 1 "4.7u" H 7285 3545 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7438 3350 50  0001 C CNN
+F 3 "~" H 7400 3500 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 7400 3500 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 7400 3500 50  0001 C CNN "Supplier Stock Code"
+	1    7400 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 3350 7400 3200
+$Comp
+L pspice:0 #GND0105
+U 1 1 5FCE9021
+P 7400 3950
+F 0 "#GND0105" H 7400 3850 50  0001 C CNN
+F 1 "0" H 7400 4039 50  0000 C CNN
+F 2 "" H 7400 3950 50  0001 C CNN
+F 3 "~" H 7400 3950 50  0001 C CNN
+	1    7400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3950 7400 3650
+$Comp
+L Device:C C?
+U 1 1 5FCE902A
+P 7850 3650
+AR Path="/5FCE902A" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FCE902A" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FCE902A" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FCE902A" Ref="C21"  Part="1" 
+F 0 "C21" H 7735 3604 50  0000 R CNN
+F 1 "100p" H 7735 3695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7888 3500 50  0001 C CNN
+F 3 "~" H 7850 3650 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 7850 3650 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 7850 3650 50  0001 C CNN "Supplier Stock Code"
+	1    7850 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 4100 7850 3800
+$Comp
+L pspice:0 #GND0111
+U 1 1 5FCE9032
+P 7850 4100
+F 0 "#GND0111" H 7850 4000 50  0001 C CNN
+F 1 "0" H 7850 4189 50  0000 C CNN
+F 2 "" H 7850 4100 50  0001 C CNN
+F 3 "~" H 7850 4100 50  0001 C CNN
+	1    7850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3200 7850 3500
+Connection ~ 7850 3200
+Connection ~ 7400 3200
+Wire Wire Line
+	7400 3200 7850 3200
+Wire Wire Line
+	7850 3200 8350 3200
+Wire Wire Line
+	8400 3500 8350 3500
+Wire Wire Line
+	8350 3500 8350 3200
+Connection ~ 8350 3200
+Wire Wire Line
+	8350 3200 8400 3200
+Wire Wire Line
+	6800 3200 7400 3200
+Connection ~ 6800 1600
+$Comp
+L Device:C C?
+U 1 1 5FD08635
+P 9900 4800
+AR Path="/5FD08635" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FD08635" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FD08635" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FD08635" Ref="C36"  Part="1" 
+F 0 "C36" H 9785 4754 50  0000 R CNN
+F 1 "3.3u" H 9785 4845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9938 4650 50  0001 C CNN
+F 3 "~" H 9900 4800 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 9900 4800 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 9900 4800 50  0001 C CNN "Supplier Stock Code"
+	1    9900 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:0 #GND0124
+U 1 1 5FD0863B
+P 9900 5050
+F 0 "#GND0124" H 9900 4950 50  0001 C CNN
+F 1 "0" H 9900 5139 50  0000 C CNN
+F 2 "" H 9900 5050 50  0001 C CNN
+F 3 "~" H 9900 5050 50  0001 C CNN
+	1    9900 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4950 9900 5050
+Wire Wire Line
+	9900 4500 9900 4650
+Wire Wire Line
+	9900 4500 10350 4500
+Connection ~ 9900 4500
+Wire Wire Line
+	9200 4600 9400 4600
+Wire Wire Line
+	9400 4600 9400 4500
+Wire Wire Line
+	9400 4500 9200 4500
+$Comp
+L Device:C C?
+U 1 1 5FD0864A
+P 9400 4750
+AR Path="/5FD0864A" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FD0864A" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FD0864A" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FD0864A" Ref="C34"  Part="1" 
+F 0 "C34" H 9285 4704 50  0000 R CNN
+F 1 "10n" H 9285 4795 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9438 4600 50  0001 C CNN
+F 3 "~" H 9400 4750 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 9400 4750 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 9400 4750 50  0001 C CNN "Supplier Stock Code"
+	1    9400 4750
+	-1   0    0    1   
+$EndComp
+Connection ~ 9400 4600
+Wire Wire Line
+	9400 4500 9900 4500
+Connection ~ 9400 4500
+$Comp
+L Regulator_Linear:LT1962-5 U6
+U 1 1 5FD08653
+P 8800 4700
+F 0 "U6" H 8800 5167 50  0000 C CNN
+F 1 "LT1962-5" H 8800 5076 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8800 4350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8800 4150 50  0001 C CNN
+	1    8800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 4900 9200 4900
+Wire Wire Line
+	9200 4900 9200 4800
+$Comp
+L pspice:0 #GND0125
+U 1 1 5FD0865B
+P 8800 5150
+F 0 "#GND0125" H 8800 5050 50  0001 C CNN
+F 1 "0" H 8800 5239 50  0000 C CNN
+F 2 "" H 8800 5150 50  0001 C CNN
+F 3 "~" H 8800 5150 50  0001 C CNN
+	1    8800 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 5150 8800 5000
+$Comp
+L Device:C C?
+U 1 1 5FD08664
+P 7400 4800
+AR Path="/5FD08664" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FD08664" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FD08664" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FD08664" Ref="C19"  Part="1" 
+F 0 "C19" H 7285 4754 50  0000 R CNN
+F 1 "4.7u" H 7285 4845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7438 4650 50  0001 C CNN
+F 3 "~" H 7400 4800 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 7400 4800 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 7400 4800 50  0001 C CNN "Supplier Stock Code"
+	1    7400 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 4650 7400 4500
+$Comp
+L pspice:0 #GND0126
+U 1 1 5FD0866B
+P 7400 5250
+F 0 "#GND0126" H 7400 5150 50  0001 C CNN
+F 1 "0" H 7400 5339 50  0000 C CNN
+F 2 "" H 7400 5250 50  0001 C CNN
+F 3 "~" H 7400 5250 50  0001 C CNN
+	1    7400 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5250 7400 4950
+$Comp
+L Device:C C?
+U 1 1 5FD08674
+P 7850 4950
+AR Path="/5FD08674" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FD08674" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FD08674" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FD08674" Ref="C31"  Part="1" 
+F 0 "C31" H 7735 4904 50  0000 R CNN
+F 1 "100p" H 7735 4995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7888 4800 50  0001 C CNN
+F 3 "~" H 7850 4950 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 7850 4950 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 7850 4950 50  0001 C CNN "Supplier Stock Code"
+	1    7850 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 5400 7850 5100
+$Comp
+L pspice:0 #GND0127
+U 1 1 5FD0867B
+P 7850 5400
+F 0 "#GND0127" H 7850 5300 50  0001 C CNN
+F 1 "0" H 7850 5489 50  0000 C CNN
+F 2 "" H 7850 5400 50  0001 C CNN
+F 3 "~" H 7850 5400 50  0001 C CNN
+	1    7850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4500 7850 4800
+Connection ~ 7850 4500
+Connection ~ 7400 4500
+Wire Wire Line
+	7400 4500 7850 4500
+Wire Wire Line
+	7850 4500 8350 4500
+Wire Wire Line
+	8400 4800 8350 4800
+Wire Wire Line
+	8350 4800 8350 4500
+Connection ~ 8350 4500
+Wire Wire Line
+	8350 4500 8400 4500
+Wire Wire Line
+	6800 4500 7400 4500
+Wire Wire Line
+	6800 3200 6800 4500
+Connection ~ 6800 3200
+Wire Wire Line
+	3900 4050 3900 4100
+Wire Wire Line
+	3650 3700 3900 3700
+Wire Wire Line
+	3650 3800 3750 3800
+Wire Wire Line
+	3750 3800 3750 4100
+Wire Wire Line
+	3750 4100 3900 4100
+Connection ~ 3900 4100
+Wire Wire Line
+	3900 4100 3900 4150
+Wire Wire Line
+	2850 3800 2750 3800
+Wire Wire Line
+	2750 3800 2750 3700
+Wire Wire Line
+	2750 3700 2850 3700
+Connection ~ 4900 3700
+$Comp
+L Device:C C?
+U 1 1 5FCE57BE
+P 4400 3900
+AR Path="/5FCE57BE" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FCE57BE" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FCE57BE" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FCE57BE" Ref="C5"  Part="1" 
+F 0 "C5" H 4285 3854 50  0000 R CNN
+F 1 "100p" H 4285 3945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4438 3750 50  0001 C CNN
+F 3 "~" H 4400 3900 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 4400 3900 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 4400 3900 50  0001 C CNN "Supplier Stock Code"
+	1    4400 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 3700 4400 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	4400 3750 4400 3700
+Connection ~ 4400 3700
+Wire Wire Line
+	4400 3700 4900 3700
+Wire Wire Line
+	4400 4050 4400 4100
+Wire Wire Line
+	4400 4100 3900 4100
+Wire Wire Line
+	3250 4300 3250 4100
+$Comp
+L pspice:0 #GND?
+U 1 1 5FD08EA2
+P 3250 4300
+AR Path="/5FBD30A7/5FBFBF42/5FD08EA2" Ref="#GND?"  Part="1" 
+AR Path="/5FBD5B32/5FD08EA2" Ref="#GND0106"  Part="1" 
+F 0 "#GND0106" H 3250 4200 50  0001 C CNN
+F 1 "0" H 3250 4389 50  0000 C CNN
+F 2 "" H 3250 4300 50  0001 C CNN
+F 3 "~" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LT3010 U3
+U 1 1 5FCAC58C
+P 3250 3800
+F 0 "U3" H 3250 4167 50  0000 C CNN
+F 1 "LT3010" H 3250 4076 50  0000 C CNN
+F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" H 3250 4125 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf" H 3250 3800 50  0001 C CNN
+	1    3250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3850 2300 3700
+Connection ~ 2300 3700
+$Comp
+L pspice:0 #GND?
+U 1 1 5FD3C4FB
+P 2300 4200
+AR Path="/5FBD30A7/5FBFBF42/5FD3C4FB" Ref="#GND?"  Part="1" 
+AR Path="/5FBD5B32/5FD3C4FB" Ref="#GND0107"  Part="1" 
+F 0 "#GND0107" H 2300 4100 50  0001 C CNN
+F 1 "0" H 2300 4289 50  0000 C CNN
+F 2 "" H 2300 4200 50  0001 C CNN
+F 3 "~" H 2300 4200 50  0001 C CNN
+	1    2300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0118
+U 1 1 5FD43C43
+P 10350 3150
+F 0 "#PWR0118" H 10350 3000 50  0001 C CNN
+F 1 "+5VA" H 10365 3323 50  0000 C CNN
+F 2 "" H 10350 3150 50  0001 C CNN
+F 3 "" H 10350 3150 50  0001 C CNN
+	1    10350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 3200 10350 3150
+$Comp
+L power:+5VD #PWR0125
+U 1 1 5FD48B9F
+P 10350 4450
+F 0 "#PWR0125" H 10350 4300 50  0001 C CNN
+F 1 "+5VD" H 10365 4623 50  0000 C CNN
+F 2 "" H 10350 4450 50  0001 C CNN
+F 3 "" H 10350 4450 50  0001 C CNN
+	1    10350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4500 10350 4450
+Wire Wire Line
+	1550 3650 1550 3700
+$Comp
+L Device:C C?
+U 1 1 5FD5981A
+P 2600 4150
+AR Path="/5FD5981A" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FD5981A" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FD5981A" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FD5981A" Ref="C3"  Part="1" 
+F 0 "C3" H 2485 4104 50  0000 R CNN
+F 1 "100p" H 2485 4195 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2638 4000 50  0001 C CNN
+F 3 "~" H 2600 4150 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 2600 4150 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 2600 4150 50  0001 C CNN "Supplier Stock Code"
+	1    2600 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 4600 2600 4300
+$Comp
+L pspice:0 #GND0128
+U 1 1 5FD59821
+P 2600 4600
+F 0 "#GND0128" H 2600 4500 50  0001 C CNN
+F 1 "0" H 2600 4689 50  0000 C CNN
+F 2 "" H 2600 4600 50  0001 C CNN
+F 3 "~" H 2600 4600 50  0001 C CNN
+	1    2600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3700 2600 4000
+Wire Wire Line
+	2300 3700 2600 3700
+Wire Wire Line
+	2750 3700 2600 3700
+Connection ~ 2750 3700
+Connection ~ 2600 3700
+Wire Wire Line
+	1550 3700 1950 3700
+Connection ~ 1550 3700
+Wire Wire Line
+	1550 3700 1550 3750
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5FD8CA4C
+P 950 3700
+F 0 "J1" H 1058 3881 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1058 3790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 950 3700 50  0001 C CNN
+F 3 "~" H 950 3700 50  0001 C CNN
+	1    950  3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3700 1550 3700
+Wire Wire Line
+	1150 3800 1250 3800
+Wire Wire Line
+	1250 3800 1250 4200
+Wire Wire Line
+	1250 4200 1550 4200
+Connection ~ 1550 4200
+Wire Wire Line
+	1550 4200 1550 4150
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5FDB237F
+P 5550 1600
+F 0 "J2" H 5658 1781 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5658 1690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5550 1600 50  0001 C CNN
+F 3 "~" H 5550 1600 50  0001 C CNN
+	1    5550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1600 6800 3200
+$Comp
+L pspice:0 #GND0129
+U 1 1 5FDBD0D5
+P 5850 1850
+F 0 "#GND0129" H 5850 1750 50  0001 C CNN
+F 1 "0" H 5850 1939 50  0000 C CNN
+F 2 "" H 5850 1850 50  0001 C CNN
+F 3 "~" H 5850 1850 50  0001 C CNN
+	1    5850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1850 5850 1700
+Wire Wire Line
+	5850 1700 5750 1700
+$Comp
+L frequencySynthesizer-rescue:TestPoint-frequencySintesizer TP?
+U 1 1 5FDAD9C9
+P 4900 3600
+AR Path="/5FBD30A7/5FDAD9C9" Ref="TP?"  Part="1" 
+AR Path="/5FBD5B32/5FDAD9C9" Ref="TP3"  Part="1" 
+F 0 "TP3" H 4958 3718 50  0000 L CNN
+F 1 "TestPoint" H 4958 3627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 5100 3600 50  0001 C CNN
+F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 5100 3600 50  0001 C CNN
+F 4 "5007" H 4900 3600 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 534-5007" H 4900 3600 50  0001 C CNN "Supplier Stock Code"
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L frequencySynthesizer-rescue:TestPoint-frequencySintesizer TP?
+U 1 1 5FDB1936
+P 10250 1500
+AR Path="/5FBD30A7/5FDB1936" Ref="TP?"  Part="1" 
+AR Path="/5FBD5B32/5FDB1936" Ref="TP6"  Part="1" 
+F 0 "TP6" H 10308 1618 50  0000 L CNN
+F 1 "TestPoint" H 10308 1527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10450 1500 50  0001 C CNN
+F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 10450 1500 50  0001 C CNN
+F 4 "5007" H 10250 1500 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 534-5007" H 10250 1500 50  0001 C CNN "Supplier Stock Code"
+	1    10250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L frequencySynthesizer-rescue:TestPoint-frequencySintesizer TP?
+U 1 1 5FDB5D55
+P 9900 3100
+AR Path="/5FBD30A7/5FDB5D55" Ref="TP?"  Part="1" 
+AR Path="/5FBD5B32/5FDB5D55" Ref="TP4"  Part="1" 
+F 0 "TP4" H 9958 3218 50  0000 L CNN
+F 1 "TestPoint" H 9958 3127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10100 3100 50  0001 C CNN
+F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 10100 3100 50  0001 C CNN
+F 4 "5007" H 9900 3100 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 534-5007" H 9900 3100 50  0001 C CNN "Supplier Stock Code"
+	1    9900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L frequencySynthesizer-rescue:TestPoint-frequencySintesizer TP?
+U 1 1 5FDB9CE2
+P 9900 4400
+AR Path="/5FBD30A7/5FDB9CE2" Ref="TP?"  Part="1" 
+AR Path="/5FBD5B32/5FDB9CE2" Ref="TP5"  Part="1" 
+F 0 "TP5" H 9958 4518 50  0000 L CNN
+F 1 "TestPoint" H 9958 4427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10100 4400 50  0001 C CNN
+F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 10100 4400 50  0001 C CNN
+F 4 "5007" H 9900 4400 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 534-5007" H 9900 4400 50  0001 C CNN "Supplier Stock Code"
+	1    9900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3600 4900 3700
+Wire Wire Line
+	4900 3700 5350 3700
+Wire Wire Line
+	10250 1500 10250 1600
+Wire Wire Line
+	9900 3100 9900 3200
+Wire Wire Line
+	9900 4400 9900 4500
+$Comp
+L pspice:DIODE D?
+U 1 1 5FE480F6
+P 6300 1850
+AR Path="/5FBD30A7/5FBFBF42/5FE480F6" Ref="D?"  Part="1" 
+AR Path="/5FBD5B32/5FE480F6" Ref="D3"  Part="1" 
+F 0 "D3" V 6346 1722 50  0000 R CNN
+F 1 "DIODE" V 6255 1722 50  0000 R CNN
+F 2 "Diode_SMD:D_MELF" H 6300 1850 50  0001 C CNN
+F 3 "~" H 6300 1850 50  0001 C CNN
+	1    6300 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 1600 6300 1600
+Wire Wire Line
+	6300 1650 6300 1600
+Connection ~ 6300 1600
+Wire Wire Line
+	6300 1600 6800 1600
+$Comp
+L pspice:0 #GND0135
+U 1 1 5FE58A98
+P 6300 2300
+F 0 "#GND0135" H 6300 2200 50  0001 C CNN
+F 1 "0" H 6300 2389 50  0000 C CNN
+F 2 "" H 6300 2300 50  0001 C CNN
+F 3 "~" H 6300 2300 50  0001 C CNN
+	1    6300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2050 6300 2300
+$EndSCHEMATC

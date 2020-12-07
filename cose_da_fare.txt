@@ -1,0 +1,4 @@
+- Modificare i valori dei resistori
+- Ragionare su  MUXOUT
+- Riflettere sui thermal via del VCO
+- Dimensione condensatori... anche elettroliti o solo ceramici?
