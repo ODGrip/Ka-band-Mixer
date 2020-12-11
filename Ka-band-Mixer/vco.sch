@@ -18,29 +18,29 @@ CPout
 $Comp
 L pspice:0 #GND0115
 U 1 1 5FC6074F
-P 3000 2450
-F 0 "#GND0115" H 3000 2350 50  0001 C CNN
-F 1 "0" H 3000 2539 50  0000 C CNN
-F 2 "" H 3000 2450 50  0001 C CNN
-F 3 "~" H 3000 2450 50  0001 C CNN
-	1    3000 2450
+P 3000 2550
+F 0 "#GND0115" H 3000 2450 50  0001 C CNN
+F 1 "0" H 3000 2639 50  0000 C CNN
+F 2 "" H 3000 2550 50  0001 C CNN
+F 3 "~" H 3000 2550 50  0001 C CNN
+	1    3000 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L pspice:0 #GND0116
 U 1 1 5FC60CD6
-P 5650 2450
-F 0 "#GND0116" H 5650 2350 50  0001 C CNN
-F 1 "0" H 5650 2539 50  0000 C CNN
-F 2 "" H 5650 2450 50  0001 C CNN
-F 3 "~" H 5650 2450 50  0001 C CNN
-	1    5650 2450
+P 5650 2550
+F 0 "#GND0116" H 5650 2450 50  0001 C CNN
+F 1 "0" H 5650 2639 50  0000 C CNN
+F 2 "" H 5650 2550 50  0001 C CNN
+F 3 "~" H 5650 2550 50  0001 C CNN
+	1    5650 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 2450 3000 2350
+	3000 2550 3000 2450
 Wire Wire Line
-	3000 2350 3200 2350
+	3000 2450 3200 2450
 Wire Wire Line
 	5400 2050 5650 2050
 Wire Wire Line
@@ -65,21 +65,20 @@ F 3 "" H 1800 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 2250 5650 2450
-Connection ~ 5650 2250
+	5650 2350 5650 2450
 $Comp
 L Device:C C?
 U 1 1 5FC6C577
-P 2500 800
+P 2500 650
 AR Path="/5FBD30A7/5FC6C577" Ref="C?"  Part="1" 
 AR Path="/5FC49510/5FC6C577" Ref="C28"  Part="1" 
-F 0 "C28" V 2350 850 50  0000 R CNN
-F 1 "1000p" V 2250 900 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2538 650 50  0001 C CNN
-F 3 "~" H 2500 800 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 2500 800 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 2500 800 50  0001 C CNN "Supplier Stock Code"
-	1    2500 800 
+F 0 "C28" V 2350 700 50  0000 R CNN
+F 1 "1000p" V 2250 750 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2538 500 50  0001 C CNN
+F 3 "~" H 2500 650 50  0001 C CNN
+F 4 "GCM1555C1H101JA16D" H 2500 650 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "Mouser 81-GCM1555C1H101JA6D" H 2500 650 50  0001 C CNN "Supplier Stock Code"
+	1    2500 650 
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -145,50 +144,14 @@ Wire Wire Line
 	6950 1800 6950 1750
 Wire Wire Line
 	6500 1750 6950 1750
-Text GLabel 1750 800  0    50   Input ~ 0
+Text GLabel 1450 650  0    50   Input ~ 0
 DIV16
 Wire Wire Line
 	5400 1750 6500 1750
 Wire Wire Line
-	2650 800  2900 800 
-$Comp
-L power:GND #PWR?
-U 1 1 5FC9BBD8
-P 2050 1150
-AR Path="/5FBD30A7/5FC9BBD8" Ref="#PWR?"  Part="1" 
-AR Path="/5FC49510/5FC9BBD8" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 2050 900 50  0001 C CNN
-F 1 "GND" H 2055 977 50  0000 C CNN
-F 2 "" H 2050 1150 50  0001 C CNN
-F 3 "" H 2050 1150 50  0001 C CNN
-	1    2050 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FC9BBDF
-P 2050 1000
-AR Path="/5FBD30A7/5FC9BBDF" Ref="R?"  Part="1" 
-AR Path="/5FC49510/5FC9BBDF" Ref="R14"  Part="1" 
-F 0 "R14" H 2120 1046 50  0000 L CNN
-F 1 "51r" H 2120 955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1980 1000 50  0001 C CNN
-F 3 "~" H 2050 1000 50  0001 C CNN
-F 4 "D/CRCW0402 kit in dipartimento" H 2050 1000 50  0001 C CNN "Supplier Stock Code"
-	1    2050 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 800  2050 850 
-Wire Wire Line
-	1750 800  2050 800 
-Wire Wire Line
-	2050 800  2350 800 
-Connection ~ 2050 800 
+	2650 650  2900 650 
 Wire Wire Line
 	2900 1450 3200 1450
-Wire Wire Line
-	2900 800  2900 1450
 $Comp
 L power:+5VA #PWR0135
 U 1 1 5FC78F40
@@ -261,8 +224,6 @@ F 5 "Mouser 81-GCM1555C1H101JA6D" H 2300 1900 50  0001 C CNN "Supplier Stock Cod
 $EndComp
 Wire Wire Line
 	1800 1550 1800 1650
-Wire Wire Line
-	3200 1650 2300 1650
 Wire Wire Line
 	2300 1750 2300 1650
 Connection ~ 2300 1650
@@ -496,4 +457,146 @@ F 5 "Mouser 530-142-0701-851" H 5550 2800 50  0001 C CNN "Supplier Stock Code"
 	1    5550 2800
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3200 2350 3000 2350
+Wire Wire Line
+	3000 2350 3000 2450
+Connection ~ 3000 2450
+Wire Wire Line
+	3200 1350 3000 1350
+Wire Wire Line
+	3000 1350 3000 1550
+Connection ~ 3000 2350
+Wire Wire Line
+	3200 1750 3000 1750
+Connection ~ 3000 1750
+Wire Wire Line
+	3000 1750 3000 1850
+Wire Wire Line
+	3200 1850 3000 1850
+Connection ~ 3000 1850
+Wire Wire Line
+	3000 1850 3000 1950
+Wire Wire Line
+	3200 1950 3000 1950
+Connection ~ 3000 1950
+Wire Wire Line
+	3000 1950 3000 2050
+Wire Wire Line
+	3200 2050 3000 2050
+Connection ~ 3000 2050
+Wire Wire Line
+	3000 2050 3000 2150
+Wire Wire Line
+	3200 2150 3000 2150
+Connection ~ 3000 2150
+Wire Wire Line
+	3000 2150 3000 2350
+Wire Wire Line
+	5400 2450 5650 2450
+Connection ~ 5650 2450
+Wire Wire Line
+	5650 2450 5650 2550
+Wire Wire Line
+	5400 2350 5650 2350
+Wire Wire Line
+	5650 2250 5650 2350
+Connection ~ 5650 2250
+Connection ~ 5650 2350
+Wire Wire Line
+	5400 1950 5650 1950
+Wire Wire Line
+	5650 1950 5650 2050
+Connection ~ 5650 2050
+Wire Wire Line
+	5400 1850 5650 1850
+Wire Wire Line
+	5650 1850 5650 1950
+Connection ~ 5650 1950
+Wire Wire Line
+	5400 1650 5650 1650
+Wire Wire Line
+	5650 1650 5650 1850
+Connection ~ 5650 1850
+Wire Wire Line
+	5400 1450 5650 1450
+Wire Wire Line
+	5650 1450 5650 1650
+Connection ~ 5650 1650
+Wire Wire Line
+	5400 1350 5650 1350
+Wire Wire Line
+	5650 1350 5650 1450
+Connection ~ 5650 1450
+Wire Wire Line
+	2300 1650 3200 1650
+Wire Wire Line
+	3200 1550 3000 1550
+Connection ~ 3000 1550
+Wire Wire Line
+	3000 1550 3000 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5FD72452
+P 1700 950
+AR Path="/5FBD30A7/5FD72452" Ref="#PWR?"  Part="1" 
+AR Path="/5FC49510/5FD72452" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 1700 700 50  0001 C CNN
+F 1 "GND" H 1705 777 50  0000 C CNN
+F 2 "" H 1700 950 50  0001 C CNN
+F 3 "" H 1700 950 50  0001 C CNN
+	1    1700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD72459
+P 1700 800
+AR Path="/5FBD30A7/5FD72459" Ref="R?"  Part="1" 
+AR Path="/5FC49510/5FD72459" Ref="R7"  Part="1" 
+F 0 "R7" H 1770 846 50  0000 L CNN
+F 1 "100r" H 1770 755 50  0000 L CNN
+F 2 "Microwave_LO_Generator:R_0201_0603_HandSolder_mod" V 1630 800 50  0001 C CNN
+F 3 "~" H 1700 800 50  0001 C CNN
+F 4 "D/CRCW0402 kit in dipartimento" H 1700 800 50  0001 C CNN "Supplier Stock Code"
+	1    1700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD72460
+P 2100 800
+AR Path="/5FBD30A7/5FD72460" Ref="R?"  Part="1" 
+AR Path="/5FC49510/5FD72460" Ref="R14"  Part="1" 
+F 0 "R14" H 2170 846 50  0000 L CNN
+F 1 "100r" H 2170 755 50  0000 L CNN
+F 2 "Microwave_LO_Generator:R_0201_0603_HandSolder_mod" V 2030 800 50  0001 C CNN
+F 3 "~" H 2100 800 50  0001 C CNN
+F 4 "D/CRCW0402 kit in dipartimento" H 2100 800 50  0001 C CNN "Supplier Stock Code"
+	1    2100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD72466
+P 2100 950
+AR Path="/5FBD30A7/5FD72466" Ref="#PWR?"  Part="1" 
+AR Path="/5FC49510/5FD72466" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 2100 700 50  0001 C CNN
+F 1 "GND" H 2105 777 50  0000 C CNN
+F 2 "" H 2100 950 50  0001 C CNN
+F 3 "" H 2100 950 50  0001 C CNN
+	1    2100 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 650  1700 650 
+Wire Wire Line
+	2900 650  2900 1450
+Connection ~ 1700 650 
+Wire Wire Line
+	1700 650  2100 650 
+Connection ~ 2100 650 
+Wire Wire Line
+	2100 650  2350 650 
 $EndSCHEMATC
