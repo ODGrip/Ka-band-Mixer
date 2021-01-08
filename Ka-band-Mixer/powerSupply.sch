@@ -51,8 +51,8 @@ F 0 "C16" H 2185 3954 50  0000 R CNN
 F 1 "1u" H 2185 4045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2338 3850 50  0001 C CNN
 F 3 "~" H 2300 4000 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 2300 4000 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 2300 4000 50  0001 C CNN "Supplier Stock Code"
+F 4 "963-GMK105CC6105MV-F" H 2300 4000 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "GMK105CC6105MV-F" H 2300 4000 50  0001 C CNN "Supplier Stock Code"
 	1    2300 4000
 	-1   0    0    1   
 $EndComp
@@ -70,6 +70,8 @@ F 0 "D2" V 1596 3822 50  0000 R CNN
 F 1 "DIODE" V 1505 3822 50  0000 R CNN
 F 2 "Diode_SMD:D_MELF" H 1550 3950 50  0001 C CNN
 F 3 "~" H 1550 3950 50  0001 C CNN
+F 4 "LL4002G" V 1550 3950 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "821-LL4002G" V 1550 3950 50  0001 C CNN "Supplier Stock Code"
 	1    1550 3950
 	0    -1   -1   0   
 $EndComp
@@ -135,8 +137,8 @@ F 0 "C22" H 4785 3954 50  0000 R CNN
 F 1 "1u" H 4785 4045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4938 3850 50  0001 C CNN
 F 3 "~" H 4900 4000 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 4900 4000 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 4900 4000 50  0001 C CNN "Supplier Stock Code"
+F 4 "GMK105CC6105MV-F" H 4900 4000 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "963-GMK105CC6105MV-F" H 4900 4000 50  0001 C CNN "Supplier Stock Code"
 	1    4900 4000
 	-1   0    0    1   
 $EndComp
@@ -180,8 +182,8 @@ F 0 "C23" H 7235 1854 50  0000 R CNN
 F 1 "4.7u" H 7235 1945 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7388 1750 50  0001 C CNN
 F 3 "~" H 7350 1900 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 7350 1900 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 7350 1900 50  0001 C CNN "Supplier Stock Code"
+F 4 "0402YD475MAT2A" H 7350 1900 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YD475MAT2A" H 7350 1900 50  0001 C CNN "Supplier Stock Code"
 	1    7350 1900
 	-1   0    0    1   
 $EndComp
@@ -213,7 +215,7 @@ F 1 "100p" H 7685 2095 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7838 1900 50  0001 C CNN
 F 3 "~" H 7800 2050 50  0001 C CNN
 F 4 "GCM1555C1H101JA16D" H 7800 2050 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 7800 2050 50  0001 C CNN "Supplier Stock Code"
+F 5 "81-GCM1555C1H101JA6D" H 7800 2050 50  0001 C CNN "Supplier Stock Code"
 	1    7800 2050
 	-1   0    0    1   
 $EndComp
@@ -244,8 +246,8 @@ F 0 "C25" H 9685 1854 50  0000 R CNN
 F 1 "3.3u" H 9685 1945 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9838 1750 50  0001 C CNN
 F 3 "~" H 9800 1900 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 9800 1900 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 9800 1900 50  0001 C CNN "Supplier Stock Code"
+F 4 "C1005X5R1A335K050BC" H 9800 1900 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "810-C1005X5R1A335K0C" H 9800 1900 50  0001 C CNN "Supplier Stock Code"
 	1    9800 1900
 	-1   0    0    1   
 $EndComp
@@ -370,8 +372,8 @@ F 0 "C35" H 9785 3454 50  0000 R CNN
 F 1 "3.3u" H 9785 3545 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9938 3350 50  0001 C CNN
 F 3 "~" H 9900 3500 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 9900 3500 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 9900 3500 50  0001 C CNN "Supplier Stock Code"
+F 4 "C1005X5R1A335K050BC" H 9900 3500 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "810-C1005X5R1A335K0C" H 9900 3500 50  0001 C CNN "Supplier Stock Code"
 	1    9900 3500
 	-1   0    0    1   
 $EndComp
@@ -399,23 +401,6 @@ Wire Wire Line
 	9400 3300 9400 3200
 Wire Wire Line
 	9400 3200 9200 3200
-$Comp
-L Device:C C?
-U 1 1 5FCB5496
-P 9400 3450
-AR Path="/5FCB5496" Ref="C?"  Part="1" 
-AR Path="/5FBFBF42/5FCB5496" Ref="C?"  Part="1" 
-AR Path="/5FBD30A7/5FBFBF42/5FCB5496" Ref="C?"  Part="1" 
-AR Path="/5FBD5B32/5FCB5496" Ref="C33"  Part="1" 
-F 0 "C33" H 9285 3404 50  0000 R CNN
-F 1 "10n" H 9285 3495 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9438 3300 50  0001 C CNN
-F 3 "~" H 9400 3450 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 9400 3450 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 9400 3450 50  0001 C CNN "Supplier Stock Code"
-	1    9400 3450
-	-1   0    0    1   
-$EndComp
 Connection ~ 9400 3300
 Wire Wire Line
 	9400 3200 9900 3200
@@ -423,23 +408,6 @@ Connection ~ 9400 3200
 Connection ~ 9300 1700
 Wire Wire Line
 	9100 1700 9300 1700
-$Comp
-L Device:C C?
-U 1 1 5FC9C331
-P 9300 1850
-AR Path="/5FC9C331" Ref="C?"  Part="1" 
-AR Path="/5FBFBF42/5FC9C331" Ref="C?"  Part="1" 
-AR Path="/5FBD30A7/5FBFBF42/5FC9C331" Ref="C?"  Part="1" 
-AR Path="/5FBD5B32/5FC9C331" Ref="C32"  Part="1" 
-F 0 "C32" H 9185 1804 50  0000 R CNN
-F 1 "10n" H 9185 1895 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9338 1700 50  0001 C CNN
-F 3 "~" H 9300 1850 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 9300 1850 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 9300 1850 50  0001 C CNN "Supplier Stock Code"
-	1    9300 1850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9300 2000 9100 2000
 Wire Wire Line
@@ -452,6 +420,8 @@ F 0 "U5" H 8800 3867 50  0000 C CNN
 F 1 "LT1962-5" H 8800 3776 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8800 3050 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8800 2850 50  0001 C CNN
+F 4 "LT1962EMS8-5#PBF" H 8800 3400 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "584-LT1962EMS8-5#PBF" H 8800 3400 50  0001 C CNN "Supplier Stock Code"
 	1    8800 3400
 	1    0    0    -1  
 $EndComp
@@ -478,6 +448,8 @@ F 0 "U2" H 8700 2267 50  0000 C CNN
 F 1 "LT1962-3.3" H 8700 2176 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8700 1450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8700 1250 50  0001 C CNN
+F 4 "LT1962EMS8-3.3#PBF" H 8700 1800 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "584-1962EMS8-3.3PBF" H 8700 1800 50  0001 C CNN "Supplier Stock Code"
 	1    8700 1800
 	1    0    0    -1  
 $EndComp
@@ -509,8 +481,8 @@ F 0 "C17" H 7285 3454 50  0000 R CNN
 F 1 "4.7u" H 7285 3545 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7438 3350 50  0001 C CNN
 F 3 "~" H 7400 3500 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 7400 3500 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 7400 3500 50  0001 C CNN "Supplier Stock Code"
+F 4 "0402YD475MAT2A" H 7400 3500 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YD475MAT2A" H 7400 3500 50  0001 C CNN "Supplier Stock Code"
 	1    7400 3500
 	-1   0    0    1   
 $EndComp
@@ -542,7 +514,7 @@ F 1 "100p" H 7735 3695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7888 3500 50  0001 C CNN
 F 3 "~" H 7850 3650 50  0001 C CNN
 F 4 "GCM1555C1H101JA16D" H 7850 3650 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 7850 3650 50  0001 C CNN "Supplier Stock Code"
+F 5 "81-GCM1555C1H101JA6D" H 7850 3650 50  0001 C CNN "Supplier Stock Code"
 	1    7850 3650
 	-1   0    0    1   
 $EndComp
@@ -589,8 +561,8 @@ F 0 "C36" H 9785 4754 50  0000 R CNN
 F 1 "3.3u" H 9785 4845 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9938 4650 50  0001 C CNN
 F 3 "~" H 9900 4800 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 9900 4800 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 9900 4800 50  0001 C CNN "Supplier Stock Code"
+F 4 "C1005X5R1A335K050BC" H 9900 4800 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "810-C1005X5R1A335K0C" H 9900 4800 50  0001 C CNN "Supplier Stock Code"
 	1    9900 4800
 	-1   0    0    1   
 $EndComp
@@ -630,8 +602,8 @@ F 0 "C34" H 9285 4704 50  0000 R CNN
 F 1 "10n" H 9285 4795 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9438 4600 50  0001 C CNN
 F 3 "~" H 9400 4750 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 9400 4750 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 9400 4750 50  0001 C CNN "Supplier Stock Code"
+F 4 "0402YC103KAT4A" H 9400 4750 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YC103KAT4A" H 9400 4750 50  0001 C CNN "Supplier Stock Code"
 	1    9400 4750
 	-1   0    0    1   
 $EndComp
@@ -647,6 +619,8 @@ F 0 "U6" H 8800 5167 50  0000 C CNN
 F 1 "LT1962-5" H 8800 5076 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8800 4350 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8800 4150 50  0001 C CNN
+F 4 "LT1962EMS8-5#PBF" H 8800 4700 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "584-LT1962EMS8-5#PBF" H 8800 4700 50  0001 C CNN "Supplier Stock Code"
 	1    8800 4700
 	1    0    0    -1  
 $EndComp
@@ -679,8 +653,8 @@ F 0 "C19" H 7285 4754 50  0000 R CNN
 F 1 "4.7u" H 7285 4845 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7438 4650 50  0001 C CNN
 F 3 "~" H 7400 4800 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 7400 4800 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 7400 4800 50  0001 C CNN "Supplier Stock Code"
+F 4 "0402YD475MAT2A" H 7400 4800 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YD475MAT2A" H 7400 4800 50  0001 C CNN "Supplier Stock Code"
 	1    7400 4800
 	-1   0    0    1   
 $EndComp
@@ -712,7 +686,7 @@ F 1 "100p" H 7735 4995 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7888 4800 50  0001 C CNN
 F 3 "~" H 7850 4950 50  0001 C CNN
 F 4 "GCM1555C1H101JA16D" H 7850 4950 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 7850 4950 50  0001 C CNN "Supplier Stock Code"
+F 5 "81-GCM1555C1H101JA6D" H 7850 4950 50  0001 C CNN "Supplier Stock Code"
 	1    7850 4950
 	-1   0    0    1   
 $EndComp
@@ -781,8 +755,8 @@ F 0 "C5" H 4285 3854 50  0000 R CNN
 F 1 "100p" H 4285 3945 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4438 3750 50  0001 C CNN
 F 3 "~" H 4400 3900 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 4400 3900 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 4400 3900 50  0001 C CNN "Supplier Stock Code"
+F 4 "04025C101KAT2A" H 4400 3900 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-04025C101KAT2A" H 4400 3900 50  0001 C CNN "Supplier Stock Code"
 	1    4400 3900
 	-1   0    0    1   
 $EndComp
@@ -821,6 +795,8 @@ F 0 "U3" H 3250 4167 50  0000 C CNN
 F 1 "LT3010" H 3250 4076 50  0000 C CNN
 F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" H 3250 4125 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf" H 3250 3800 50  0001 C CNN
+F 4 "LT3010EMS8E#PBF" H 3250 3800 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "584-LT3010EMS8E#PBF" H 3250 3800 50  0001 C CNN "Supplier Stock Code"
 	1    3250 3800
 	1    0    0    -1  
 $EndComp
@@ -880,8 +856,8 @@ F 0 "C3" H 2485 4104 50  0000 R CNN
 F 1 "100p" H 2485 4195 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2638 4000 50  0001 C CNN
 F 3 "~" H 2600 4150 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 2600 4150 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 2600 4150 50  0001 C CNN "Supplier Stock Code"
+F 4 "04025C101KAT2A" H 2600 4150 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-04025C101KAT2A" H 2600 4150 50  0001 C CNN "Supplier Stock Code"
 	1    2600 4150
 	-1   0    0    1   
 $EndComp
@@ -1041,6 +1017,8 @@ F 0 "D3" V 6346 1722 50  0000 R CNN
 F 1 "DIODE" V 6255 1722 50  0000 R CNN
 F 2 "Diode_SMD:D_MELF" H 6300 1850 50  0001 C CNN
 F 3 "~" H 6300 1850 50  0001 C CNN
+F 4 "LL4002G" V 6300 1850 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "821-LL4002G" V 6300 1850 50  0001 C CNN "Supplier Stock Code"
 	1    6300 1850
 	0    -1   -1   0   
 $EndComp
@@ -1094,4 +1072,38 @@ F 5 "Mouser 534-5007" H 1600 5200 50  0001 C CNN "Supplier Stock Code"
 $EndComp
 Wire Wire Line
 	1600 5200 1600 5450
+$Comp
+L Device:C C?
+U 1 1 5FCB5496
+P 9400 3450
+AR Path="/5FCB5496" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FCB5496" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FCB5496" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FCB5496" Ref="C33"  Part="1" 
+F 0 "C33" H 9285 3404 50  0000 R CNN
+F 1 "10n" H 9285 3495 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9438 3300 50  0001 C CNN
+F 3 "~" H 9400 3450 50  0001 C CNN
+F 4 "0402YC103KAT4A" H 9400 3450 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YC103KAT4A" H 9400 3450 50  0001 C CNN "Supplier Stock Code"
+	1    9400 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC9C331
+P 9300 1850
+AR Path="/5FC9C331" Ref="C?"  Part="1" 
+AR Path="/5FBFBF42/5FC9C331" Ref="C?"  Part="1" 
+AR Path="/5FBD30A7/5FBFBF42/5FC9C331" Ref="C?"  Part="1" 
+AR Path="/5FBD5B32/5FC9C331" Ref="C32"  Part="1" 
+F 0 "C32" H 9185 1804 50  0000 R CNN
+F 1 "10n" H 9185 1895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9338 1700 50  0001 C CNN
+F 3 "~" H 9300 1850 50  0001 C CNN
+F 4 "0402YC103KAT4A" H 9300 1850 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YC103KAT4A" H 9300 1850 50  0001 C CNN "Supplier Stock Code"
+	1    9300 1850
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

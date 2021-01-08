@@ -74,10 +74,10 @@ AR Path="/5FBD30A7/5FC6C577" Ref="C?"  Part="1"
 AR Path="/5FC49510/5FC6C577" Ref="C28"  Part="1" 
 F 0 "C28" V 2350 700 50  0000 R CNN
 F 1 "1000p" V 2250 750 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2538 500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2538 500 50  0001 C CNN
 F 3 "~" H 2500 650 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 2500 650 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 2500 650 50  0001 C CNN "Supplier Stock Code"
+F 4 "TMK063CG102JT-F" H 2500 650 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "963-TMK063CG102JT-F" H 2500 650 50  0001 C CNN "Supplier Stock Code"
 	1    2500 650 
 	0    -1   -1   0   
 $EndComp
@@ -92,7 +92,7 @@ F 1 "100p" V 6250 2050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6538 1800 50  0001 C CNN
 F 3 "~" H 6500 1950 50  0001 C CNN
 F 4 "GCM1555C1H101JA16D" H 6500 1950 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 6500 1950 50  0001 C CNN "Supplier Stock Code"
+F 5 "81-GCM1555C1H101JA6D" H 6500 1950 50  0001 C CNN "Supplier Stock Code"
 	1    6500 1950
 	1    0    0    -1  
 $EndComp
@@ -106,8 +106,8 @@ F 0 "C30" V 6800 2000 50  0000 R CNN
 F 1 "4.7u" V 6700 2050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6988 1800 50  0001 C CNN
 F 3 "~" H 6950 1950 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 6950 1950 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 6950 1950 50  0001 C CNN "Supplier Stock Code"
+F 4 "0402YD475MAT2A" H 6950 1950 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YD475MAT2A" H 6950 1950 50  0001 C CNN "Supplier Stock Code"
 	1    6950 1950
 	1    0    0    -1  
 $EndComp
@@ -202,8 +202,8 @@ F 0 "C27" V 1750 1950 50  0000 R CNN
 F 1 "4.7u" V 1650 2000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1938 1750 50  0001 C CNN
 F 3 "~" H 1900 1900 50  0001 C CNN
-F 4 "GCM1555C1H101JA16D" H 1900 1900 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 1900 1900 50  0001 C CNN "Supplier Stock Code"
+F 4 "0402YD475MAT2A" H 1900 1900 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "581-0402YD475MAT2A" H 1900 1900 50  0001 C CNN "Supplier Stock Code"
 	1    1900 1900
 	1    0    0    -1  
 $EndComp
@@ -218,7 +218,7 @@ F 1 "100p" V 2050 2000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2338 1750 50  0001 C CNN
 F 3 "~" H 2300 1900 50  0001 C CNN
 F 4 "GCM1555C1H101JA16D" H 2300 1900 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 81-GCM1555C1H101JA6D" H 2300 1900 50  0001 C CNN "Supplier Stock Code"
+F 5 "81-GCM1555C1H101JA6D" H 2300 1900 50  0001 C CNN "Supplier Stock Code"
 	1    2300 1900
 	1    0    0    -1  
 $EndComp
@@ -311,6 +311,8 @@ F 0 "U4" H 4300 1737 60  0000 C CNN
 F 1 "HMC739LP4E" H 4300 1631 60  0000 C CNN
 F 2 "Microwave_LO_Generator:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias_mod" H 4300 1590 60  0001 C CNN
 F 3 "" H 3200 1350 60  0000 C CNN
+F 4 "HMC739LP4E" H 3200 1350 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "584-HMC739LP4E" H 3200 1350 50  0001 C CNN "Supplier Stock Code"
 	1    3200 1350
 	1    0    0    -1  
 $EndComp
@@ -322,6 +324,8 @@ F 0 "U7" H 7650 3087 60  0000 C CNN
 F 1 "HMC292ALC3B" H 7650 2981 60  0000 C CNN
 F 2 "Microwave_LO_Generator:HMC292ALC3B" H 7650 2940 60  0001 C CNN
 F 3 "" H 6750 2700 60  0000 C CNN
+F 4 "HMC292ALC3B" H 6750 2700 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "584-HMC292ALC3B" H 6750 2700 50  0001 C CNN "Supplier Stock Code"
 	1    6750 2700
 	1    0    0    -1  
 $EndComp
@@ -453,7 +457,7 @@ F 1 "SMA_END-frequencySintesizer" H 5650 2684 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 5550 2800 50  0001 C CNN
 F 3 "" H 5550 2800 50  0001 C CNN
 F 4 "142-0701-851" H 5550 2800 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 530-142-0701-851" H 5550 2800 50  0001 C CNN "Supplier Stock Code"
+F 5 "530-142-0701-851" H 5550 2800 50  0001 C CNN "Supplier Stock Code"
 	1    5550 2800
 	-1   0    0    -1  
 $EndComp
