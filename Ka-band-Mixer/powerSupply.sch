@@ -306,8 +306,8 @@ F 0 "D7" V 10289 2182 50  0000 R CNN
 F 1 "LED" V 10198 2182 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 2300 50  0001 C CNN
 F 3 "https://www.mouser.it/datasheet/2/678/av02-0551en-ds-hsmx-cxxx-05mar2012-1827675.pdf" H 10250 2300 50  0001 C CNN
-F 4 "HSMG-C170" H 10250 2300 50  0001 C CNN "Manufacturer/Part Number"
-F 5 "Mouser 630-HSMG-C170" H 10250 2300 50  0001 C CNN "Supplier Stock Code"
+F 4 "AP2012HD" H 10250 2300 50  0001 C CNN "Manufacturer/Part Number"
+F 5 "604-AP2012HD" H 10250 2300 50  0001 C CNN "Supplier Stock Code"
 	1    10250 2300
 	0    -1   -1   0   
 $EndComp
