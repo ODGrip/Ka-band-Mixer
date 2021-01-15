@@ -407,7 +407,7 @@ U 1 1 5FD06637
 P 5250 3700
 F 0 "J4" H 5358 3881 50  0000 C CNN
 F 1 "Connector_Conn_01x02_Male" H 5358 3790 50  0000 C CNN
-F 2 "Microwave_LO_Generator:Connettore" H 5250 3700 50  0001 C CNN
+F 2 "Microwave_LO_Generator:Connettore_largo" H 5250 3700 50  0001 C CNN
 F 3 "" H 5250 3700 50  0001 C CNN
 	1    5250 3700
 	1    0    0    -1  
