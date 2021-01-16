@@ -68,7 +68,7 @@ AR Path="/5FBD30A7/5FBFBF42/5FBD9AFE" Ref="D?"  Part="1"
 AR Path="/5FBD5B32/5FBD9AFE" Ref="D2"  Part="1" 
 F 0 "D2" V 1596 3822 50  0000 R CNN
 F 1 "DIODE" V 1505 3822 50  0000 R CNN
-F 2 "Diode_SMD:D_MELF" H 1550 3950 50  0001 C CNN
+F 2 "Microwave_LO_Generator:D_MELF" H 1550 3950 50  0001 C CNN
 F 3 "~" H 1550 3950 50  0001 C CNN
 F 4 "SM4004-W" V 1550 3950 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "583-SM4004" V 1550 3950 50  0001 C CNN "Supplier Stock Code"
@@ -418,7 +418,7 @@ U 1 1 5FCADF3B
 P 8800 3400
 F 0 "U4" H 8800 3867 50  0000 C CNN
 F 1 "LT1962-5" H 8800 3776 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8800 3050 50  0001 C CNN
+F 2 "Microwave_LO_Generator:MSOP-8_3x3mm_P0.65mm" H 8800 3050 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8800 2850 50  0001 C CNN
 F 4 "LT1962EMS8-5#PBF" H 8800 3400 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "584-LT1962EMS8-5#PBF" H 8800 3400 50  0001 C CNN "Supplier Stock Code"
@@ -446,7 +446,7 @@ U 1 1 5FC7F7B2
 P 8700 1800
 F 0 "U3" H 8700 2267 50  0000 C CNN
 F 1 "LT1962-3.3" H 8700 2176 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8700 1450 50  0001 C CNN
+F 2 "Microwave_LO_Generator:MSOP-8_3x3mm_P0.65mm" H 8700 1450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8700 1250 50  0001 C CNN
 F 4 "LT1962EMS8-3.3#PBF" H 8700 1800 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "584-1962EMS8-3.3PBF" H 8700 1800 50  0001 C CNN "Supplier Stock Code"
@@ -617,7 +617,7 @@ U 1 1 5FD08653
 P 8800 4700
 F 0 "U5" H 8800 5167 50  0000 C CNN
 F 1 "LT1962-5" H 8800 5076 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8800 4350 50  0001 C CNN
+F 2 "Microwave_LO_Generator:MSOP-8_3x3mm_P0.65mm" H 8800 4350 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 8800 4150 50  0001 C CNN
 F 4 "LT1962EMS8-5#PBF" H 8800 4700 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "584-LT1962EMS8-5#PBF" H 8800 4700 50  0001 C CNN "Supplier Stock Code"
@@ -793,7 +793,7 @@ U 1 1 5FCAC58C
 P 3250 3800
 F 0 "U2" H 3250 4167 50  0000 C CNN
 F 1 "LT3010" H 3250 4076 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" H 3250 4125 50  0001 C CNN
+F 2 "Microwave_LO_Generator:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" H 3250 4125 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf" H 3250 3800 50  0001 C CNN
 F 4 "LT3010EMS8E#PBF" H 3250 3800 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "584-LT3010EMS8E#PBF" H 3250 3800 50  0001 C CNN "Supplier Stock Code"
@@ -893,7 +893,7 @@ U 1 1 5FD8CA4C
 P 950 3700
 F 0 "J2" H 1058 3881 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1058 3790 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 950 3700 50  0001 C CNN
+F 2 "Microwave_LO_Generator:PinHeader_1x02_P2.54mm_Vertical" H 950 3700 50  0001 C CNN
 F 3 "~" H 950 3700 50  0001 C CNN
 	1    950  3700
 	1    0    0    -1  
@@ -915,7 +915,7 @@ U 1 1 5FDB237F
 P 5550 1600
 F 0 "J3" H 5658 1781 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 5658 1690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5550 1600 50  0001 C CNN
+F 2 "Microwave_LO_Generator:PinHeader_1x02_P2.54mm_Vertical" H 5550 1600 50  0001 C CNN
 F 3 "~" H 5550 1600 50  0001 C CNN
 	1    5550 1600
 	1    0    0    -1  
@@ -945,7 +945,7 @@ AR Path="/5FBD30A7/5FDAD9C9" Ref="TP?"  Part="1"
 AR Path="/5FBD5B32/5FDAD9C9" Ref="TP3"  Part="1" 
 F 0 "TP3" H 4958 3718 50  0000 L CNN
 F 1 "TestPoint" H 4958 3627 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 5100 3600 50  0001 C CNN
+F 2 "Microwave_LO_Generator:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 5100 3600 50  0001 C CNN
 F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 5100 3600 50  0001 C CNN
 F 4 "5007" H 4900 3600 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "Mouser 534-5007" H 4900 3600 50  0001 C CNN "Supplier Stock Code"
@@ -960,7 +960,7 @@ AR Path="/5FBD30A7/5FDB1936" Ref="TP?"  Part="1"
 AR Path="/5FBD5B32/5FDB1936" Ref="TP6"  Part="1" 
 F 0 "TP6" H 10308 1618 50  0000 L CNN
 F 1 "TestPoint" H 10308 1527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10450 1500 50  0001 C CNN
+F 2 "Microwave_LO_Generator:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10450 1500 50  0001 C CNN
 F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 10450 1500 50  0001 C CNN
 F 4 "5007" H 10250 1500 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "Mouser 534-5007" H 10250 1500 50  0001 C CNN "Supplier Stock Code"
@@ -975,7 +975,7 @@ AR Path="/5FBD30A7/5FDB5D55" Ref="TP?"  Part="1"
 AR Path="/5FBD5B32/5FDB5D55" Ref="TP4"  Part="1" 
 F 0 "TP4" H 9958 3218 50  0000 L CNN
 F 1 "TestPoint" H 9958 3127 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10100 3100 50  0001 C CNN
+F 2 "Microwave_LO_Generator:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10100 3100 50  0001 C CNN
 F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 10100 3100 50  0001 C CNN
 F 4 "5007" H 9900 3100 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "Mouser 534-5007" H 9900 3100 50  0001 C CNN "Supplier Stock Code"
@@ -990,7 +990,7 @@ AR Path="/5FBD30A7/5FDB9CE2" Ref="TP?"  Part="1"
 AR Path="/5FBD5B32/5FDB9CE2" Ref="TP5"  Part="1" 
 F 0 "TP5" H 9958 4518 50  0000 L CNN
 F 1 "TestPoint" H 9958 4427 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10100 4400 50  0001 C CNN
+F 2 "Microwave_LO_Generator:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10100 4400 50  0001 C CNN
 F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 10100 4400 50  0001 C CNN
 F 4 "5007" H 9900 4400 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "Mouser 534-5007" H 9900 4400 50  0001 C CNN "Supplier Stock Code"
@@ -1015,7 +1015,7 @@ AR Path="/5FBD30A7/5FBFBF42/5FE480F6" Ref="D?"  Part="1"
 AR Path="/5FBD5B32/5FE480F6" Ref="D3"  Part="1" 
 F 0 "D3" V 6346 1722 50  0000 R CNN
 F 1 "DIODE" V 6255 1722 50  0000 R CNN
-F 2 "Diode_SMD:D_MELF" H 6300 1850 50  0001 C CNN
+F 2 "Microwave_LO_Generator:D_MELF" H 6300 1850 50  0001 C CNN
 F 3 "~" H 6300 1850 50  0001 C CNN
 F 4 "SM4004-W" V 6300 1850 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "583-SM4004" V 6300 1850 50  0001 C CNN "Supplier Stock Code"
@@ -1063,7 +1063,7 @@ AR Path="/5FBD30A7/5FCF00F0" Ref="TP?"  Part="1"
 AR Path="/5FBD5B32/5FCF00F0" Ref="TP2"  Part="1" 
 F 0 "TP2" H 1658 5318 50  0000 L CNN
 F 1 "TestPoint" H 1658 5227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1800 5200 50  0001 C CNN
+F 2 "Microwave_LO_Generator:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1800 5200 50  0001 C CNN
 F 3 "https://www.mouser.it/datasheet/2/215/005-5009-741293.pdf" H 1800 5200 50  0001 C CNN
 F 4 "5007" H 1600 5200 50  0001 C CNN "Manufacturer/Part Number"
 F 5 "Mouser 534-5007" H 1600 5200 50  0001 C CNN "Supplier Stock Code"
